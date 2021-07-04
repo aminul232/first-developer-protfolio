@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 45px;
 }
-h1 .orange-color{
+h2{
+    font-size: 30px;
+}
+.orange-color{
     color: orange;
 }
 .fexible-continar{
@@ -44,4 +47,30 @@ h1 .orange-color{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.last{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.Experiences-items{
+    box-shadow: 10px 10px 50px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    padding: 25px 20px;
+
+    
+}
+
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF6548, #FFA07A);
+    border-image-slice: 1;
+}
+#web-dev-pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(#4a08ff, #08aee0);
+    border-image-slice: 1;
 }
